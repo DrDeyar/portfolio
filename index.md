@@ -1,85 +1,50 @@
 ---
-layout: post 
-title: Portfolio Home 
+layout: post
+title: Deyar's Portfolio
 hide: true
 show_reading_time: false
 ---
 
-Hi! My name is Deyar Raissadat
+# Deyar Raissadat
 
-### Development Environment
+Welcome to my AP Computer Science Principles portfolio. This site documents my coding work, technical growth, team contributions, and reflections.
 
+## Development Environment
 
-> Coding starts with tools, explore these tools and procedures with a click.
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://opencodingsociety.com" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FA8072; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <img src="{{ '/favicon.ico' | relative_url }}" alt="OCS logo" style="width: 16px; height: 16px;">
-        OCS
-    </a>
-    <a href="https://github.com/Open-Coding-Society/portfolio" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FFF; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        GitHub
-    </a>
-    <a href="https://vscode.dev/" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #007ACC; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11.34 0L5.66 5.39l-2.4-1.8L1.19 4.82v6.36l2.07 1.23 2.4-1.8L11.34 16 15 14.23V1.77L11.34 0zm.59 11.57l-3.86-3.54 3.86-3.54v7.08z"/>
-        </svg>
-        VSCode.dev
-    </a>
-</div>
-
-<br>
-
-### My Lessons
-
-> Foundations in Tech are essential, click to see some of my lesson creations.
-
+> Coding starts with the right tools and a repeatable workflow.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/code/javascript" style="text-decoration: none;">
-        <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           JS Basics
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/game/essentials/variables" style="text-decoration: none;">
-        <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           JS Variables
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/gamerunner" style="text-decoration: none;">
-        <div style="background-color: var(--warn); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           Gamerunner
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/network/stack" style="text-decoration: none;">
-        <div style="background-color: var(--orange); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           Networking
-        </div>
-    </a>
+  <a href="https://pages.opencodingsociety.com/tools/csp/" class="btn">Tools Setup</a>
+  <a href="https://github.com/DrDeyar/portfolio" class="btn" style="background-color: var(--blue);">My GitHub</a>
+  <a href="https://vscode.dev/" class="btn" style="background-color: var(--teal);">VS Code</a>
+  <a href="{{site.baseurl}}/about/" class="btn" style="background-color: var(--orange);">About Me</a>
 </div>
 
-<br>
+## GitHub Pages Learning
 
-### Class Progress
+These links cover the skills I am using to build and improve this portfolio:
 
-> Here is my game progress through coding, click to see these in the browser
+- [GitHub Pages: Home Page](https://pages.opencodingsociety.com/github/pages/csp/) teaches the structure and purpose of `index.md`.
+- [GitHub Pages: About Page](https://pages.opencodingsociety.com/github/pages/about/csp/) teaches personalization using Markdown, HTML, CSS, and JavaScript.
+- [Onboarding Challenge: Ground 0](https://pages.opencodingsociety.com/sprint1/challenge/csp/) connects setup, portfolio evidence, reflection, and teamwork.
+
+## My Lessons
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" class="btn">
-        Snake
-    </a>
-    <a href="{{site.baseurl}}/gamify/parallax" class="btn" style="background-color: var(--green); ">
-        Fish
-    </a>
-    <a href="{{site.baseurl}}/gamify" class="btn" style="background-color: var(--teal);">
-       Gamify
-    </a>
-    <a href="{{site.baseurl}}/cs-pathway" class="btn" style="background-color: var(--orange);">
-       CS Pathway
-    </a>
+  <a href="{{site.baseurl}}/code/javascript" class="btn">JS Basics</a>
+  <a href="{{site.baseurl}}/game/essentials/variables" class="btn" style="background-color: var(--blue);">JS Variables</a>
+  <a href="{{site.baseurl}}/gamerunner" class="btn" style="background-color: var(--warn); color: black;">Gamerunner</a>
+  <a href="{{site.baseurl}}/network/stack" class="btn" style="background-color: var(--orange);">Networking</a>
 </div>
 
-<br>
+## Current Team Project
+
+My team is planning a tennis equipment recommendation tool. A user will provide information such as experience level, playing style, comfort needs, and budget. The program will recommend a racquet, string setup, and grip.
+
+## Current Goals
+
+- Finish and verify my development environment
+- Practice the complete edit, test, commit, and push workflow
+- Add evidence from each assignment to this portfolio
+- Help create the shared team repository and backlog
+- Turn the tennis equipment idea into an algorithm and prototype
