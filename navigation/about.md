@@ -9,7 +9,7 @@ comments: true
 
 Hi, I’m Deyar Raissadat. I am a student learning computer science through hands-on projects, GitHub, and teamwork.
 
-I enjoy designing, writing, photography, and coding. I like projects where creativity and technical problem solving come together to make something useful.
+I enjoy designing, writing, photography, coding, and video games. I like projects where creativity and technical problem solving come together to make something useful.
 
 <style>
 .deyar-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; margin:18px 0; }
@@ -19,7 +19,21 @@ I enjoy designing, writing, photography, and coding. I like projects where creat
 .deyar-card h3 { margin:0 0 8px; font-size:1.15rem; white-space:nowrap; }
 .deyar-card p { margin:0; }
 .deyar-section-image { width:100%; height:240px; object-fit:cover; border-radius:12px; margin:8px 0 16px; }
+.deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:14px 0 18px; }
+.deyar-flag { text-align:center; }
+.deyar-flag img { width:100%; height:170px; object-fit:contain; border-radius:10px; background:#f4f4f4; }
+.deyar-flag strong { display:block; margin-top:7px; }
+@media (max-width:520px) { .deyar-flags { grid-template-columns:1fr; } }
 </style>
+
+## My Story
+
+<div class="deyar-flags">
+<div class="deyar-flag"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt="Flag of Iran"><strong>Iran</strong></div>
+<div class="deyar-flag"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"><strong>California</strong></div>
+</div>
+
+I lived in Iran for seven years before moving to California. Both places are an important part of my story and who I am today.
 
 ## My Interests
 
@@ -28,6 +42,7 @@ I enjoy designing, writing, photography, and coding. I like projects where creat
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80" alt="Creative design materials"><div class="deyar-card-content"><h3>Design</h3><p>Making ideas clear, useful, and visually interesting.</p></div></div>
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=800&q=80" alt="Camera used for photography"><div class="deyar-card-content"><h3>Photography</h3><p>Using composition and light to tell a story.</p></div></div>
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Notebook and pen"><div class="deyar-card-content"><h3>Writing</h3><p>Turning ideas into organized explanations and stories.</p></div></div>
+<div class="deyar-card"><img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Video game controllers and gaming setup"><div class="deyar-card-content"><h3>Video Games</h3><p>Enjoying interactive challenges, competition, and creative worlds.</p></div></div>
 </div>
 
 ## My CSP Journey
