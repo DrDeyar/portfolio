@@ -19,21 +19,15 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-card h3 { margin:0 0 8px; font-size:1.15rem; white-space:nowrap; }
 .deyar-card p { margin:0; }
 .deyar-section-image { width:100%; height:240px; object-fit:cover; border-radius:12px; margin:8px 0 16px; }
-.deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:14px 0 18px; }
-.deyar-flag { text-align:center; }
-.deyar-flag img { width:100%; height:170px; object-fit:contain; border-radius:10px; background:#f4f4f4; }
-.deyar-flag strong { display:block; margin-top:7px; }
-@media (max-width:520px) { .deyar-flags { grid-template-columns:1fr; } }
+.deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin:20px 0 32px; }
+.deyar-flag { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
+.deyar-flag-image { height:190px; padding:18px; background:#f4f4f4; display:flex; align-items:center; justify-content:center; }
+.deyar-flag img { width:100%; height:100%; object-fit:contain; display:block; }
+.deyar-flag-text { padding:16px 18px 18px; }
+.deyar-flag h3 { margin:0 0 8px; }
+.deyar-flag p { margin:0; line-height:1.55; }
+@media (max-width:600px) { .deyar-flags { grid-template-columns:1fr; } }
 </style>
-
-## My Story
-
-<div class="deyar-flags">
-<div class="deyar-flag"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt="Flag of Iran"><strong>Iran</strong></div>
-<div class="deyar-flag"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"><strong>California</strong></div>
-</div>
-
-I lived in Iran for seven years before moving to California. Both places are an important part of my story and who I am today.
 
 ## My Interests
 
@@ -43,6 +37,19 @@ I lived in Iran for seven years before moving to California. Both places are an 
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=800&q=80" alt="Camera used for photography"><div class="deyar-card-content"><h3>Photography</h3><p>Using composition and light to tell a story.</p></div></div>
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Notebook and pen"><div class="deyar-card-content"><h3>Writing</h3><p>Turning ideas into organized explanations and stories.</p></div></div>
 <div class="deyar-card"><img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Video game controllers and gaming setup"><div class="deyar-card-content"><h3>Video Games</h3><p>Enjoying interactive challenges, competition, and creative worlds.</p></div></div>
+</div>
+
+## My Story
+
+<div class="deyar-flags">
+  <div class="deyar-flag">
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt="Flag of Iran"></div>
+    <div class="deyar-flag-text"><h3>Growing Up in Iran</h3><p>I lived in Iran for seven years. It was the first place I called home and an important part of my background.</p></div>
+  </div>
+  <div class="deyar-flag">
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"></div>
+    <div class="deyar-flag-text"><h3>Moving to California</h3><p>After seven years in Iran, I moved to California. California became my new home and the place where I continued growing and learning.</p></div>
+  </div>
 </div>
 
 ## My CSP Journey
