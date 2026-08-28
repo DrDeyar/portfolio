@@ -21,8 +21,8 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-section-image { width:100%; height:240px; object-fit:cover; border-radius:12px; margin:8px 0 16px; }
 .deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin:20px 0 32px; }
 .deyar-flag { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
-.deyar-flag-image { height:190px; padding:18px; background:#f4f4f4; display:flex; align-items:center; justify-content:center; }
-.deyar-flag img { width:100%; height:100%; object-fit:contain; display:block; }
+.deyar-flag-image { width:100%; aspect-ratio:3 / 2; background:#f4f4f4; }
+.deyar-flag img { width:100%; height:100%; object-fit:fill; display:block; }
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
@@ -30,7 +30,7 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-photo { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
 .deyar-photo img { width:100%; aspect-ratio:2 / 3; object-fit:cover; display:block; }
 .deyar-photo-caption { padding:14px 16px; font-weight:600; text-align:center; }
-@media (max-width:600px) { .deyar-flags { grid-template-columns:1fr; } }
+@media (max-width:600px) { .deyar-flags { gap:10px; } .deyar-flag-text { padding:12px; } .deyar-flag h3 { font-size:1rem; } }
 </style>
 
 ## My Interests
@@ -48,11 +48,11 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 <div class="deyar-flags">
   <div class="deyar-flag">
     <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt="Flag of Iran"></div>
-    <div class="deyar-flag-text"><h3>Growing Up in Iran</h3><p>I lived in Iran for seven years. It was the first place I called home and an important part of my background.</p></div>
+    <div class="deyar-flag-text"><h3>Seven Years in Iran</h3><p>I lived in Iran for seven years before moving to California. Those seven years made Iran an important part of my background and personal story.</p></div>
   </div>
   <div class="deyar-flag">
     <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"></div>
-    <div class="deyar-flag-text"><h3>Moving to California</h3><p>After seven years in Iran, I moved to California. California became my new home and the place where I continued growing and learning.</p></div>
+    <div class="deyar-flag-text"><h3>Life in California</h3><p>After living in Iran for seven years, I moved to California. California is where I live now, making it the other major place in my story.</p></div>
   </div>
 </div>
 
