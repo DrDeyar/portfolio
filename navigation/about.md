@@ -26,10 +26,11 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
-.deyar-album { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,300px)); gap:20px; margin:18px 0 32px; }
-.deyar-photo { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
-.deyar-photo img { width:100%; aspect-ratio:2 / 3; object-fit:cover; display:block; }
-.deyar-photo-caption { padding:14px 16px; font-weight:600; text-align:center; }
+.deyar-album { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; margin:18px 0 32px; }
+.deyar-photo { margin:0; border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; align-self:start; }
+.deyar-photo img { width:100%; height:auto; object-fit:contain; display:block; background:#151a20; }
+.deyar-photo-caption { padding:12px 14px 14px; font-size:clamp(.9rem,1.5vw,1rem); font-weight:600; line-height:1.35; text-align:center; }
+@media (max-width:650px) { .deyar-album { grid-template-columns:1fr; gap:16px; } }
 @media (max-width:600px) { .deyar-flags { gap:10px; } .deyar-flag-text { padding:12px; } .deyar-flag h3 { font-size:1rem; } }
 </style>
 
@@ -60,8 +61,20 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 
 <div class="deyar-album">
   <figure class="deyar-photo">
-    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=2" alt="Creative portrait of Deyar">
+    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=3" alt="Creative portrait of Deyar">
     <figcaption class="deyar-photo-caption">Yours truly</figcaption>
+  </figure>
+  <figure class="deyar-photo">
+    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/world-cup.jpg?v=3" alt="Deyar at the World Cup">
+    <figcaption class="deyar-photo-caption">At the World Cup</figcaption>
+  </figure>
+  <figure class="deyar-photo">
+    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-portrait.jpg?v=3" alt="Felfel resting on a bed">
+    <figcaption class="deyar-photo-caption">My Dog Felfel</figcaption>
+  </figure>
+  <figure class="deyar-photo">
+    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-weird-neck.jpg?v=3" alt="Felfel resting in an unusual position">
+    <figcaption class="deyar-photo-caption">I Don't Know How She's Doing That</figcaption>
   </figure>
 </div>
 
