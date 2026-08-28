@@ -462,8 +462,8 @@ comments: true
     <h2>Photo Album</h2>
     <p>Four personal photos with short captions.</p>
     <div class="album-grid">
-      <figure class="album-card yours"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=6" alt="Creative portrait of Deyar" loading="lazy"><figcaption>Yours truly</figcaption></figure>
-      <figure class="album-card world"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/world-cup.jpg?v=6" alt="Deyar at the World Cup" loading="lazy"><figcaption>At the World Cup</figcaption></figure>
+      <figure class="album-card yours"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=6" alt="Creative portrait of Deyar" loading="lazy"><figcaption>Yours Truly</figcaption></figure>
+      <figure class="album-card world"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/world-cup.jpg?v=6" alt="Deyar at the World Cup" loading="lazy"><figcaption>At The World Cup</figcaption></figure>
       <figure class="album-card dog-wide"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-portrait.jpg?v=6" alt="Felfel resting on a bed" loading="lazy"><figcaption>My Dog Felfel</figcaption></figure>
       <figure class="album-card dog-neck"><img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-weird-neck.jpg?v=6" alt="Felfel in an unusual position" loading="lazy"><figcaption>I Don't Know How She's Doing That</figcaption></figure>
     </div>
