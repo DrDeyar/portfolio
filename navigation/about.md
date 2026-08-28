@@ -26,6 +26,10 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
+.deyar-album { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,300px)); gap:20px; margin:18px 0 32px; }
+.deyar-photo { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
+.deyar-photo img { width:100%; aspect-ratio:2 / 3; object-fit:cover; display:block; }
+.deyar-photo-caption { padding:14px 16px; font-weight:600; text-align:center; }
 @media (max-width:600px) { .deyar-flags { grid-template-columns:1fr; } }
 </style>
 
@@ -50,6 +54,15 @@ I enjoy designing, writing, photography, coding, and video games. I like project
     <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"></div>
     <div class="deyar-flag-text"><h3>Moving to California</h3><p>After seven years in Iran, I moved to California. California became my new home and the place where I continued growing and learning.</p></div>
   </div>
+</div>
+
+## Photo Album
+
+<div class="deyar-album">
+  <figure class="deyar-photo">
+    <img src="{{ site.baseurl }}/assets/images/photo-album/yours-truly.jpg" alt="Creative portrait of Deyar">
+    <figcaption class="deyar-photo-caption">Yours truly</figcaption>
+  </figure>
 </div>
 
 ## My CSP Journey
