@@ -26,11 +26,17 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
-.deyar-album { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; margin:18px 0 32px; }
-.deyar-photo { margin:0; border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; align-self:start; }
-.deyar-photo img { width:100%; height:auto; object-fit:contain; display:block; background:#151a20; }
-.deyar-photo-caption { padding:12px 14px 14px; font-size:clamp(.9rem,1.5vw,1rem); font-weight:600; line-height:1.35; text-align:center; }
-@media (max-width:650px) { .deyar-album { grid-template-columns:1fr; gap:16px; } }
+.deyar-album { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; align-items:start; max-width:900px; margin:18px auto 32px; }
+.deyar-photo { position:relative; margin:0; border:1px solid var(--border,#777); border-radius:10px; overflow:hidden; background:#151a20; }
+.deyar-photo::after { content:""; position:absolute; z-index:1; top:0; left:0; right:0; height:240px; pointer-events:none; background:linear-gradient(to bottom,transparent 90%,rgba(21,26,32,.92) 100%); }
+.deyar-photo img { width:100%; height:240px; object-fit:cover; display:block; background:#151a20; }
+.deyar-photo--portrait img { object-position:center 48%; }
+.deyar-photo--world img { object-position:center bottom; }
+.deyar-photo--landscape img { object-fit:contain; object-position:center; }
+.deyar-photo--felfel img { object-position:center 52%; }
+.deyar-photo-caption { position:relative; z-index:2; min-height:2.7em; padding:10px 10px 12px; font-size:.86rem; font-weight:600; line-height:1.3; text-align:center; background:#151a20; }
+@media (max-width:900px) { .deyar-album { grid-template-columns:repeat(2,minmax(0,1fr)); max-width:560px; } }
+@media (max-width:430px) { .deyar-album { grid-template-columns:1fr; max-width:280px; } }
 @media (max-width:600px) { .deyar-flags { gap:10px; } .deyar-flag-text { padding:12px; } .deyar-flag h3 { font-size:1rem; } }
 </style>
 
@@ -60,19 +66,19 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 ## Photo Album
 
 <div class="deyar-album">
-  <figure class="deyar-photo">
+  <figure class="deyar-photo deyar-photo--portrait">
     <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=3" alt="Creative portrait of Deyar">
     <figcaption class="deyar-photo-caption">Yours truly</figcaption>
   </figure>
-  <figure class="deyar-photo">
+  <figure class="deyar-photo deyar-photo--world">
     <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/world-cup.jpg?v=3" alt="Deyar at the World Cup">
     <figcaption class="deyar-photo-caption">At the World Cup</figcaption>
   </figure>
-  <figure class="deyar-photo">
+  <figure class="deyar-photo deyar-photo--landscape">
     <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-portrait.jpg?v=3" alt="Felfel resting on a bed">
     <figcaption class="deyar-photo-caption">My Dog Felfel</figcaption>
   </figure>
-  <figure class="deyar-photo">
+  <figure class="deyar-photo deyar-photo--felfel">
     <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/felfel-weird-neck.jpg?v=3" alt="Felfel resting in an unusual position">
     <figcaption class="deyar-photo-caption">I Don't Know How She's Doing That</figcaption>
   </figure>
