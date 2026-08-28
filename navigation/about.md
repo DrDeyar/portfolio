@@ -19,10 +19,10 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-card h3 { margin:0 0 8px; font-size:1.15rem; white-space:nowrap; }
 .deyar-card p { margin:0; }
 .deyar-section-image { width:100%; height:240px; object-fit:cover; border-radius:12px; margin:8px 0 16px; }
-.deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin:20px 0 32px; }
-.deyar-flag { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
-.deyar-flag-image { width:100% !important; height:180px !important; overflow:hidden; background:#f4f4f4; }
-.deyar-flag img { width:100% !important; height:180px !important; object-fit:fill !important; display:block; }
+.deyar-flags { display:flex !important; flex-direction:row !important; align-items:stretch; gap:22px; margin:20px 0 32px; }
+.deyar-flag { flex:1 1 0; min-width:0; border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
+.deyar-flag-image { width:100% !important; aspect-ratio:3 / 2 !important; overflow:hidden; background:#f4f4f4; }
+.deyar-flag img { width:100% !important; height:100% !important; object-fit:contain !important; display:block; }
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
@@ -45,13 +45,13 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 
 ## My Story
 
-<div class="deyar-flags">
-  <div class="deyar-flag">
-    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg?v=2" alt="Flag of Iran" width="600" height="180" style="width:100% !important;height:180px !important;object-fit:fill !important;"></div>
+<div class="deyar-flags" style="display:flex !important;flex-direction:row !important;gap:22px;align-items:stretch;">
+  <div class="deyar-flag" style="flex:1 1 0;min-width:0;">
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/State_flag_of_Iran_1964-1980_%283-2%29.svg" alt="Historical Lion and Sun flag of Iran" style="width:100% !important;height:100% !important;object-fit:contain !important;"></div>
     <div class="deyar-flag-text"><h3>Seven Years in Iran</h3><p>I lived in Iran for seven years before moving to California. Those seven years made Iran an important part of my background and personal story.</p></div>
   </div>
-  <div class="deyar-flag">
-    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg?v=2" alt="Flag of California" width="600" height="180" style="width:100% !important;height:180px !important;object-fit:fill !important;"></div>
+  <div class="deyar-flag" style="flex:1 1 0;min-width:0;">
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California" style="width:100% !important;height:100% !important;object-fit:contain !important;"></div>
     <div class="deyar-flag-text"><h3>Life in California</h3><p>After living in Iran for seven years, I moved to California. California is where I live now, making it the other major place in my story.</p></div>
   </div>
 </div>
@@ -60,7 +60,7 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 
 <div class="deyar-album">
   <figure class="deyar-photo">
-    <img src="{{ site.baseurl }}/assets/images/photo-album/yours-truly.jpg" alt="Creative portrait of Deyar">
+    <img src="https://drdeyar.github.io/portfolio/assets/images/photo-album/yours-truly.jpg?v=2" alt="Creative portrait of Deyar">
     <figcaption class="deyar-photo-caption">Yours truly</figcaption>
   </figure>
 </div>
