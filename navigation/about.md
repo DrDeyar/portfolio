@@ -21,8 +21,8 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 .deyar-section-image { width:100%; height:240px; object-fit:cover; border-radius:12px; margin:8px 0 16px; }
 .deyar-flags { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin:20px 0 32px; }
 .deyar-flag { border:1px solid var(--border,#777); border-radius:12px; overflow:hidden; }
-.deyar-flag-image { width:100%; aspect-ratio:3 / 2; background:#f4f4f4; }
-.deyar-flag img { width:100%; height:100%; object-fit:fill; display:block; }
+.deyar-flag-image { width:100% !important; height:180px !important; overflow:hidden; background:#f4f4f4; }
+.deyar-flag img { width:100% !important; height:180px !important; object-fit:fill !important; display:block; }
 .deyar-flag-text { padding:16px 18px 18px; }
 .deyar-flag h3 { margin:0 0 8px; }
 .deyar-flag p { margin:0; line-height:1.55; }
@@ -47,11 +47,11 @@ I enjoy designing, writing, photography, coding, and video games. I like project
 
 <div class="deyar-flags">
   <div class="deyar-flag">
-    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt="Flag of Iran"></div>
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg?v=2" alt="Flag of Iran" width="600" height="180" style="width:100% !important;height:180px !important;object-fit:fill !important;"></div>
     <div class="deyar-flag-text"><h3>Seven Years in Iran</h3><p>I lived in Iran for seven years before moving to California. Those seven years made Iran an important part of my background and personal story.</p></div>
   </div>
   <div class="deyar-flag">
-    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="Flag of California"></div>
+    <div class="deyar-flag-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg?v=2" alt="Flag of California" width="600" height="180" style="width:100% !important;height:180px !important;object-fit:fill !important;"></div>
     <div class="deyar-flag-text"><h3>Life in California</h3><p>After living in Iran for seven years, I moved to California. California is where I live now, making it the other major place in my story.</p></div>
   </div>
 </div>
