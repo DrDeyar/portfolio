@@ -86,5 +86,5 @@ Hi! My name is Deyar Raissadat!
 
 ### Sprint 3 — Phase 1
 
-- [Sprint 1–2 and Quiz Retrospective]({{ '/csp/sprint-3/phase-1/retrospective/' | relative_url }})
+- [Sprint 1–2 and Quiz Retrospective](https://github.com/DrDeyar/portfolio/issues/2)
 - [Project Define — SFI Specification Search]({{ '/csp/sprint-3/phase-1/define/' | relative_url }})
